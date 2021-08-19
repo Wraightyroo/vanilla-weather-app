@@ -10,7 +10,79 @@
     <title>Vanilla Weather App</title>
   </head>
   <body>
-    <h1>Weather App</h1>
+    <div class="container">
+      <h1>Weather App</h1>
+
+      <div class="form">
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="Enter a City..."
+            autocomplete="off"
+            id="city-search"
+          />
+        </form>
+        <button type="button" class="btn btn-primary">Search</button>
+      </div>
+
+      <div class="weatherInfo">
+        <div class="row">
+          <div class="col-6">
+            <h1>Kent</h1>
+            <ul>
+              <li><span class="date">Monday 1st Jan 2021</span></li>
+              <li><span class="humidity">Humidity</span>%</li>
+              <li><span class="wind">Wind</span>%</li>
+            </ul>
+            </div>
+            <div class="col-6">
+            <span class="temperature">00</span>
+            <span class="unit">˚C</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+  <h1>Next 5 Days...</h1>
+ <div class="row week">
+        <div class="col">
+          Mon
+          <br />
+          <i class="fas fa-sun sun"></i>
+          <br />
+          ˚C
+        </div>
+        <div class="col">
+          Tues
+          <br />
+          <i class="fas fa-sun sun"></i>
+           <br />
+          ˚C
+        </div>
+        <div class="col">
+          Weds
+          <br />
+          <i class="fas fa-sun sun"></i>
+           <br />
+          ˚C
+          </div>
+        <div class="col">
+          Thurs
+          <br />
+          <i class="fas fa-sun sun"></i>
+           <br />
+          ˚C
+        </div>
+        <div class="col">
+          Fri
+          <br />
+          <i class="fas fa-sun sun"></i>
+           <br />
+          ˚C
+        </div> </div> </div>
+
+        <p><a href="https://github.com/Wraightyroo/vanilla-weather-app"> Open-Source Code </a>by Emily Wraight</p>
+
     <script src="index.js"></script>
   </body>
 </html>
