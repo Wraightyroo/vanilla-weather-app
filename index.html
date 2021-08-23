@@ -13,6 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
 
     <title>Vanilla Weather App</title>
@@ -39,7 +41,7 @@
       <div class="weatherInfo">
         <div class="row">
           <div class="col-6">
-            <h1>Kent</h1>
+            <h1 id="city">Kent</h1>
             <ul>
               <li><span class="date">Monday 1st Jan 2021 | 00:00</span></li>
               <li><span class="humidity">Humidity</span>  %</li>
@@ -48,7 +50,7 @@
             </div>
             <div class="col-6">
               <div class="clearfix weather-temperature">
-            
+
              <strong id="temperature">00</strong
                   ><span class="units"
                     ><a href="#" id="celsius-link" class="active">°C</a> |
