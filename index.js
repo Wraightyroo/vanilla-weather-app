@@ -40,8 +40,22 @@ function displayTemperature(response) {
     iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
+function search(city) {
+    
 let apiKey = "fc23ccd0a04eee182512a62ffe2b81be";
-let city = "Kent";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
 axios.get(apiUrl).then(displayTemperature);
+
+}
+
+function handleSubmit(event) {
+    event.preventDefault();
+    let citySearchElement = document.querySelector("#city-search");
+    search(citySearchElement.value);
+}
+
+
+search ("Kent");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
