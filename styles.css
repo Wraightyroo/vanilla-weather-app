@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-.weather-temperature img {
+.weather-temperature icon {
   margin-right: 5px;
   height: 64px;
   width: 64px;
