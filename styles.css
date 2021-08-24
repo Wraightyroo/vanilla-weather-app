@@ -65,6 +65,16 @@ p {
   top: -34px;
 }
 
+.weather-temperature .active {
+  text-decoration: none;
+  color: #77529e;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .date {
   font-size: 20px;
 }
