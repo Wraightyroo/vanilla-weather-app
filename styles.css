@@ -3,7 +3,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  color: #272144;
+  color: #6892d5;
   font-weight: 600;
 }
 
@@ -13,7 +13,7 @@ ul {
 }
 
 li {
-  color: #272144;
+  color: #6892d5;
   list-style: none;
   margin: 0;
   font-size: 16px;
@@ -24,12 +24,12 @@ li:first-letter {
 }
 p {
   text-align: right;
-  color: #272144;
+  color: #6892d5;
   font-size: 12px;
 }
 
 strong {
-  color: #ee74a2;
+  color: #79d1c3;
 }
 
 .form {
@@ -42,19 +42,19 @@ strong {
 }
 .weather-app {
   padding: 20px;
-  border: 4px solid #272144;
+  border: 4px solid #6892d5;
   border-radius: 10px;
- background: #dcb5ff; 
+ background: #c9fdd7;
 }
 
 .btn-custom {
-  background-color: #ee74a2;
+  background-color: #6892d5;
   color: white;
-  border: #ee74a2;
+  border: #6892d5;
 }
 
 .btn-custom:hover {
-  background-color: #ee74a2;
+  background-color: #6892d5;
   filter: brightness(0.5);
 }
 
@@ -84,7 +84,7 @@ strong {
 }
 
 .weather-temperature strong {
-  color:#ee74a2;
+  color:#6892d5;
   font-size: 64px;
   line-height: 2;
   font-weight: 600;
@@ -98,7 +98,7 @@ strong {
 
 .weather-temperature .active {
   text-decoration: none;
-  color: #ee74a2;
+  color: #6892d5;
   cursor: default;
 }
 
